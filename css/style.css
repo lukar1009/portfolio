@@ -1,0 +1,249 @@
+*{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: rgba(211, 211, 211, 0.8);
+}
+
+#logo {
+    background-color: rgb(109, 216, 251);
+    padding: 8px;
+    letter-spacing: 5px;
+    box-shadow: 5px 5px rgb(137, 185, 200);
+}
+
+#logo-text{
+    border-bottom: 1px dotted white;
+    border-right: 1px dotted white;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    padding-right: 1px;
+}
+
+.nav-link{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    font-weight: bold;
+}
+
+.btn-info{
+    background-color: rgb(109, 216, 251);
+    border-color: rgb(137, 185, 200);
+}
+
+.btn-info:hover{
+    background-color: rgb(6, 68, 88);
+    
+}
+
+#main-div{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+#home{
+    background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjEyMDd9");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    max-width: 100%;
+    min-width: 200px;
+}
+
+#home-subdiv{
+    /* background-color: rgba(173, 236, 230, 0.5); */
+    background-image: linear-gradient(to bottom, rgba(109, 216, 251, 0.7), rgba(61, 169, 206, 0.7));
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    min-width: 200px;
+}
+
+#introduce-div{
+    background-color: rgba(211, 211, 211, 0.85);
+    padding: 20px 100px;
+    border-radius: 50px;
+}
+
+#about{
+    /* background-color: rgba(173, 236, 230, 0.5); */
+    /* background-image: linear-gradient(to bottom, rgba(61, 169, 206, 0.7), rgba(30, 135, 170, 0.7)); */
+    background-image: linear-gradient(to bottom, rgba(109, 216, 251, 0.7), rgba(61, 169, 206, 0.7));
+    height: 100%;
+    width: 100vw;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+
+}
+
+/* #about .jumbotron{
+    height: 422px;
+} */
+
+#about-subdiv{
+    background-color: rgba(173, 236, 230, 0.5);
+    height: 100%;
+    width: 100vw;
+    max-width: 100%;
+}
+
+#about-subsubdiv{
+    width: 100vw;
+    max-width: 100%;
+}
+
+#about-title-text{
+    /* color: #138496; */
+    color: rgb(230, 230, 230);
+}
+
+.about-text{
+    font-size: 20px;
+    color: rgb(230, 230, 230);
+}
+
+#hr-lg{
+    border: 1px solid rgb(230, 230, 230);
+    width: 8vw;
+}
+
+#hr-sm{
+    border: 1px solid rgb(230, 230, 230);
+    width: 4vw;
+}
+
+.site-images{
+    border-radius: 10px;
+    box-shadow: 14px 14px #138496;
+}
+
+#skills{
+    /* background-color: rgba(173, 236, 230, 0.5); */
+    background-image: linear-gradient(to bottom, rgba(61, 169, 206, 0.7), rgba(30, 135, 170, 0.7));
+    height: 100%;
+    width: 100vw;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+}
+
+#business-list{
+    list-style-image: url("https://img.icons8.com/ultraviolet/40/000000/checked.png");
+    padding-left: 70px;
+}
+
+.list-group{
+    background-color: transparent;
+}
+
+.list-group-item{
+    background-color: transparent;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+}
+
+.experience-desc{
+    padding-left: 70px;
+}
+
+.card{
+    background-color: rgba(211, 211, 211, 0.7);
+    min-width: 250px;
+}
+
+.tech-cards{
+    padding-top: 30px;
+    width: 50%;
+    height: 70%;
+}
+
+.progress{
+    width: 200px;
+}
+
+
+#projects{
+    /* background-color: rgba(173, 236, 230, 0.5); */
+    background-image: linear-gradient(to bottom, rgba(30, 135, 170, 0.7), rgba(18, 101, 129, 0.7));
+    height: 100%;
+    width: 100vw;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+
+}
+
+.fa {
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+#github-a{
+    color: black;
+    text-decoration: none;
+}
+
+#github-a:hover{
+    text-decoration: none;
+}
+
+
+
+#contact{
+    /* background-color: rgba(173, 236, 230, 0.5); */
+    background-image: linear-gradient(to bottom, rgba(18, 101, 129, 0.7), rgba(6, 68, 88, 0.7));
+    height: 100%;
+    width: 100vw;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+
+}
+
+.contact-icon{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.contact-icon:hover{
+    color: white;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
